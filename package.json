@@ -1,0 +1,16 @@
+{
+  "name": "yousaf khan-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Pro Bot with Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "node-cache": "^5.1.2",
+    "moment-timezone": "^0.5.43"
+  }
+}
