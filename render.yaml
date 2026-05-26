@@ -1,7 +1,7 @@
 services:
-  - type: web
-    name: yousaf khan-md
+    - type: web
+    name: yousaf-khan-md
     env: node
     buildCommand: npm install
     startCommand: node index.js
-    plan: free
+    instanceType: free
